@@ -3,16 +3,17 @@
 - type: github
   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+- type: bilibili
+  icon: "fa-brands fa-bilibili"
+  url: "https://space.bilibili.com/3546773939292407"
 
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+- type: qq
+  icon: "fa - brands fa - qq"
+  url: "https://user.qzone.qq.com/1204043646"
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
