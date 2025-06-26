@@ -124,6 +124,22 @@ script_includes:
   <div class="content">
     {{ content }}
   </div>
+  <script>
+    // 等待页面完全加载后执行
+    document.addEventListener('DOMContentLoaded', function () {
+      const pathname = window.location.pathname;
+      const utterances = document.createElement('script');
+      utterances.src = 'https://utteranc.es/client.js';
+      utterances.async = true;
+      utterances.crossOrigin = 'anonymous';
+      utterances.setAttribute('repo', 'your-username/your-repo');
+      utterances.setAttribute('issue-term', 'specific:' + pathname); // 使用 JS 获取的路径
+      utterances.setAttribute('theme', 'icy-dark');
+
+      // 将脚本插入到页面中
+      document.body.appendChild(utterances);
+    });
+  </script>
   <script
     src="https://utteranc.es/client.js"
     repo="CDX0721/pages_comments/"
