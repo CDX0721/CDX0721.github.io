@@ -12,7 +12,7 @@
   noblank: true # open link in current tab
 
 - type: qq
-  icon: "fa - brands fa - qq"
+  icon: "fa fa - qq"
   url: "https://user.qzone.qq.com/1204043646"
 # Uncomment and complete the url below to enable more contact options
 #
