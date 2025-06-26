@@ -15,6 +15,14 @@ script_includes:
 
 <article class="px-1" data-toc="{{ enable_toc }}">
   <header>
+    <!-- 临时调试代码，查看Jekyll变量值 -->
+    <div style="background-color: #f8f9fa; padding: 10px; margin-bottom: 20px;">
+      <p><strong>调试信息 - Jekyll路径变量：</strong></p>
+      <p><code>page.url</code>: {{ page.url }}</p>
+      <p><code>page.path</code>: {{ page.path }}</p>
+      <p><code>page.permalink</code>: {{ page.permalink }}</p>
+      <p><code>site.baseurl</code>: {{ site.baseurl }}</p>
+    </div>
     <h1 data-toc-skip>{{ page.title }}</h1>
     {% if page.description %}
       <p class="post-desc fw-light mb-4">{{ page.description }}</p>
