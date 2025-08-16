@@ -1,0 +1,49 @@
+--- 
+title: Windows11系统配置SR3.6测试服教程
+author: CDX0721
+date: 2025-08-16 12:00:00 +0800
+categories: [游戏, 崩坏：星穹铁道]
+tags: [测试服]
+render_with_liquid: false
+---
+
+## 配置需求
+
+- 确保你的电脑可以带的动正式服的崩坏：星穹铁道
+- **40GB+**的存储空间
+
+## 配置步骤
+
+#### 1. 下载客户端
+
+这一步可能需要很长时间，所以放在第一步
+
+[下载链接](https://store-na-phx-2.gofile.io/download/web/3d578475-f611-4abf-970e-fb27201f4ff7/StarRail_3.5.51_CN.rar)
+
+下载完成后解压，下文把包含StarRail.exe的文件夹称为客户端文件夹
+
+#### 2. 为系统安装zig环境
+
+[下载Zig安装包](https://ziglang.org/download/0.14.1/zig-x86_64-windows-0.14.1.zip)到任意目录并解压
+
+打开文件夹并复制路径（路径下包含zig.exe文件即可）
+
+右键桌面上的“此电脑”打开”属性“，上方搜索框搜索“查看高级系统设置”。在弹出的窗口中选择“高级”选项卡，点击下方的“环境变量”，然后找到”Path“变量，左键双击打开，在弹出的窗口中点击新建，并把刚才复制的路径填入，保存退出
+
+Win+R输入CMD回车，在终端中输入`zig env`指令，如果没有报错说明zig安装成功
+
+#### 3.克隆github仓库
+
+另开一个文件夹，在文件夹内右键，在终端中打开，然后在终端中输入
+
+```
+git clone https://git.xeondev.com/HonkaiSlopRail/evernight-sr
+```
+
+#### 4.启动游戏
+
+克隆完成后打开evernight-sr文件夹，点击运行run.bat
+
+然后打开evernight-sr文件夹下的launcher文件夹，复制其中的两个文件到客户端文件夹
+
+在客户端文件夹中右键刚才复制的launcher.exe，以管理员身份运行，即可成功启动
