@@ -10,11 +10,11 @@ render_with_liquid: false
 
 ## 资源下载
 
-[hdiff updater]([Release v3.2.4 · YYHEggEgg/HappyGenyuanImsactUpdate](https://github.com/YYHEggEgg/HappyGenyuanImsactUpdate/releases/tag/v3.2.4))（建议下载packed-runtime版本）
+[hdiff updater](https://github.com/YYHEggEgg/HappyGenyuanImsactUpdate/releases/tag/v3.2.4)（建议下载packed-runtime版本）
 
-[V1->V2更新包]([Transfer.it](https://transfer.it/t/OrfrbNwViT5a))
+[V1->V2更新包](https://transfer.it/t/OrfrbNwViT5a)
 
-[V2->V3更新包]([Transfer.it](https://transfer.it/t/2qLB6A4xVbqR))
+[V2->V3更新包](https://transfer.it/t/2qLB6A4xVbqR)
 
 ## 更新方法
 
