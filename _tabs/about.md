@@ -29,7 +29,7 @@ CN橙灯芯/CDX0721, 厦门大学24届软件工程本科在读
 
 # 友情链接
 
-[CrazyHarp's Blog](http://www.crazyharp.icu)
+[CrazyHarp's Blog](https://www.crazyharp.icu)
 
 [Coast23's Blog](https://coast23.github.io)
 
